@@ -10,12 +10,13 @@ var content ={
     title: 'Article One | Swapnil Das',
     date: '8 April 2017',
     heading:'Article One',
-    content: `<p>This is my first article .... Do read..And don't forget to subscribe my channel
-           <div>
-               The first article is all about my life.
-                  And what i wanna do in.
-           </div>
-        </p>`
+    content: 
+            `<p>This is my first article .... Do read..And don't forget to subscribe my channel
+                <div>
+                The first article is all about my life.
+                And what i wanna do in.
+                </div>
+             </p>`
 };
 
 function createTemplate (data){

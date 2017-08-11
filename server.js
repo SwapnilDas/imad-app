@@ -40,7 +40,7 @@ var htmlTemplate=
             </a>
         </div>
              <h1>${heading}</h1>
-        <div>${date}/div>
+        <div>${date}</div>
     
         <div>
         ${content}

@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var content ={
+var ArticleOne ={
     title: 'ArticleOne | Swapnil Das',
     date: '8 August 2017',
     heading:'Article One',
@@ -59,7 +59,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function(req, res){
-    res.send(createTemplate(content));
+    res.send(createTemplate(ArticleOne));
 });
 
 app.get('/article-two', function(req, res){

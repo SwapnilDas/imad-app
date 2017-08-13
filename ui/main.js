@@ -3,7 +3,7 @@ console.log('Loaded!');
 //move the image
 var img=document.getElementById('madi');
 function moveRight(){
-    marginLeft =marginleft+10;
+    marginLeft =marginleft+1;
     img.style.marginLeft=marginleft+'px';
 }
 img.onclick = function()

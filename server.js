@@ -11,12 +11,14 @@ var ArticleOne ={
     date: '8 August 2017',
     heading:'Article One',
     content: 
-            `<p>This is my first article .... Do read..And don't forget to subscribe my channel
-                <div>
-                The first article is all about my life.
-                And what i wanna do in.
-                </div>
-             </p>`
+            `<p>
+            <h3>Personal:</h3>
+            <hr/>
+            <div> Hi!! Iam Swapnil Das..</div>
+            <h3>Professional:</h3>
+            <div>And i love coding</div>
+            <hr/>
+            </p>`
 };
 
 function createTemplate (data){

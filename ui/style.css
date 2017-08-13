@@ -23,7 +23,7 @@ body {
     .container 
     {
     max-width: 800px;
-    
+    margin: 0 auto;
     color: rgb(43, 251, 13);
     font-family: times;
     font-size: 45px;

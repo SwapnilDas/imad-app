@@ -12,11 +12,7 @@ var ArticleOne ={
     heading:'Article One',
     content: 
             `<p>
-            <h3>Personal:</h3>
-            <hr/>
-            <div> Hi!! Iam Swapnil Das..</div>
-            <h3>Professional:</h3>
-            <div>And i love coding</div>
+            This is Article One....There are in total 3 articles....
             <hr/>
             </p>`
 };

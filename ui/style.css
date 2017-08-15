@@ -1,6 +1,7 @@
 body {
-    background-image:url("http://techreport.com/r.x/ssd-endurance-theend/slant.jpg");
-    background-repeat:no-repeat;
+    background-image:url("http://techreport.com/r.x/ssd-endurance-theend/slant.jpg") ;
+    background-repeat:repeat-x;
+    background-position:center;
     font-family: Arial;
     background-color: black;
     margin-top: 75px;

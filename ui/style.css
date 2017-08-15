@@ -24,7 +24,7 @@ body {
 
 .container 
 {
-    background-color: RGB(0,255,0);
+   
     max-width: 800px;
     margin: 0 auto;
     color: RGB(0,0,255);
@@ -34,7 +34,7 @@ body {
     padding-right: 20px;
 }
 
-#ssd{
+.ssd{
     color:RGB(0,0,255);
     border:10px;
 }

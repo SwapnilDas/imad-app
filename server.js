@@ -38,6 +38,12 @@ var htmlTemplate=
         <div>
             <a href ="/">Home
             </a>
+            <ul><li>Article One</li>
+                <li>Article Two></li>
+                <li>Article Three</li>
+            </ul>
+            
+                
         </div>
              <h1>${heading}</h1>
         <div>${date}</div>

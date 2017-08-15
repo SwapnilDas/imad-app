@@ -12,7 +12,7 @@ var ArticleOne ={
     heading:'Article One',
     content: 
             `
-            <h2>Something about SSD</h2>
+            <h2>KEEP CALM AND LEARN CODING!</h2>
             <hr/>
             <p>The first thing that comes to your is that what is coding? </p>
             <div><p>Coding is what makes it possible for us to create computer software, apps and websites. Your browser, your OS and the apps on your phone, Facebook, and this webpage-they all are made with code.</p></div>

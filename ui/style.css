@@ -34,7 +34,6 @@ body {
     padding-right: 20px;
 }
 
-.ssd{
-    color:RGB(0,0,255);
-    border:10px;
+.p{
+    border:5px solid blue;
 }

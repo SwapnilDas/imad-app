@@ -52,4 +52,5 @@ body {
             cursor:pointer;
             overflow: hidden;
             outline: none;
+            opacity: 0.5;
 }

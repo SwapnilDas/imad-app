@@ -24,7 +24,7 @@ body {
 
 .container 
 {
-   
+    min-width:200px;
     max-width: 800px;
     margin: 0 auto;
     color: RGB(0,0,255);

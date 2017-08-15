@@ -11,10 +11,12 @@ var ArticleOne ={
     date: '8 August 2017',
     heading:'Article One',
     content: 
-            `<p>
-            This is Article One....There are in total 3 articles....
+            `
+            <h2>Something about SSD</h2>
             <hr/>
-            </p>`
+            <p>The first thing that comes to your mind is what is SSD?</p>
+            <div id="ssd" ><p>SSD are storage devices which saves memory in block.. Unlike HDD which contains moving parts like a disk along with a laser reader, the SSD are known to save data in data blocks which are easy to read and write. Thus, increasing the capability of the PC ... Definitely, making it fast and instant. Users with built in ODD slot can replace their optical drives with SDD, making their PC/Laptops LIGHTNING FAST...:)</p></div>
+            `
 };
 
 function createTemplate (data){

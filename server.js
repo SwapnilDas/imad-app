@@ -39,10 +39,8 @@ var htmlTemplate=
             
  <button type="button"><a href="article-one"><a href ="/">Home</a></a></button>
 <button type="button"><a href="article-one">Article One</a></button>
-            
-                Article Two
-                Article Three
-            </ul>
+<button type="button"><a href="article-one">Article Two</a></button>
+<button type="button"><a href="article-one">Article Three</a></button>
             
                 
         </div>

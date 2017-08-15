@@ -48,12 +48,11 @@ body {
 #butn{
   display: inline-block;
   margin: 0 auto;
-  padding: 15px 45px;
   font-size: 48px;
   font-family: "Bitter",serif;
   line-height: 1.8;
   appearance: none;
   box-shadow: none;
-  border-radius: 0;
+  border-radius: 50px;
 }
 

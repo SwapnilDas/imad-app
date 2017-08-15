@@ -37,7 +37,7 @@ var htmlTemplate=
     <div class="container">
         <div id="butn">
             
- <button type="button"><a href="article-one"><a href ="/">Home</a></a></button>
+ <button type="button"><a href="article-one"><a href ="/" alt="info">Home</a></a></button>
 <button type="button"><a href="article-one">Article Two</a></button>
 <button type="button"><a href="article-one">Article Three</a></button>
             

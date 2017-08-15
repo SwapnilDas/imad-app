@@ -38,8 +38,8 @@ var htmlTemplate=
         <div>
             <a href ="/">Home
             </a>
-            <ul><li><a href="/ui/article-one.html">Article One</a></li>
-                <li>Article Two></li>
+            <ul><li><a href="article-one.html">Article One</a></li>
+                <li>Article Two</li>
                 <li>Article Three</li>
             </ul>
             

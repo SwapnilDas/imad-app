@@ -48,7 +48,7 @@ body {
 .li{
    line-height:1.5em;
    border-bottom:50px solid #ccc;
-   float:left;
+   float:right;
    display:inline;  
 
 }

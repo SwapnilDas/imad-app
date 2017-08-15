@@ -46,11 +46,18 @@ body {
 }
 
 #butn{
-    background-color:transparent;
-     background-repeat:no-repeat;
-            border: none;
-            cursor:pointer;
-            overflow: hidden;
-            outline: none;
-            opacity: 0.5;
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 15px 45px;
+  font-size: 48px;
+  font-family: "Bitter",serif;
+  line-height: 1.8;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+#butn:focus {
+  outline: none
+
 }

@@ -24,7 +24,7 @@ body {
 
     .container 
     {
-    background-color:lightblue;
+    background-color:rgba(0,255,0,10);
     max-width: 800px;
     margin: 0 auto;
     color: rgba(0,0,255,50);

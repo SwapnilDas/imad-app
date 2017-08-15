@@ -14,8 +14,8 @@ var ArticleOne ={
             `
             <h2>Something about SSD</h2>
             <hr/>
-            <p>The first thing that comes to your mind is what is SSD?</p>
-            <div id="ssd" ><p>SSD are storage devices which saves memory in block.. Unlike HDD which contains moving parts like a disk along with a laser reader, the SSD are known to save data in data blocks which are easy to read and write. Thus, increasing the capability of the PC ... Definitely, making it fast and instant. Users with built in ODD slot can replace their optical drives with SDD, making their PC/Laptops LIGHTNING FAST...:)</p></div>
+            <p>The first thing that comes to your is that what is coding? </p>
+            <div><p>Coding is what makes it possible for us to create computer software, apps and websites. Your browser, your OS and the apps on your phone, Facebook, and this webpage-they all are made with code.</p></div>
             `
 };
 

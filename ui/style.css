@@ -1,5 +1,6 @@
 body {
     background-image:url("http://techreport.com/r.x/ssd-endurance-theend/slant.jpg");
+    
     font-family: Arial;
     background-color: black;
     margin-top: 75px;
@@ -23,6 +24,7 @@ body {
 
     .container 
     {
+    background-color:lightblue;
     max-width: 800px;
     margin: 0 auto;
     color: rgb(43, 251, 13);

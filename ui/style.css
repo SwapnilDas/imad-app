@@ -44,3 +44,11 @@ body {
     border-width:100px;
     
 }
+
+.ul{
+   line-height:1.5em;
+   border-bottom:1px solid #ccc;
+   float:left;
+   display:inline;  
+
+}

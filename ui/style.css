@@ -24,8 +24,8 @@ body {
 
 .container 
 {
-    min-width:200px;
-    max-width: 500px;
+  
+    max-width: 800px;
     margin: 0 auto;
     color: RGB(0,255,0);
     font-family: arial sans-serif;

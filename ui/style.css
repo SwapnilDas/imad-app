@@ -27,7 +27,7 @@ body {
     background-color:lightblue;
     max-width: 800px;
     margin: 0 auto;
-    color: rgb(43, 251, 13);
+    color: rgba(0,0,0,50);
     font-family: arial sans-serif;
     font-size: 25px;
     padding-left: 20px;

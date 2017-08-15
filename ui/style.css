@@ -45,7 +45,7 @@ body {
     
 }
 
-#butn{
+.butn{
   display: inline-block;
   margin: 0 10px 0 0;
   padding: 15px 45px;
@@ -57,7 +57,3 @@ body {
   border-radius: 0;
 }
 
-#butn:focus {
-  outline: none
-
-}

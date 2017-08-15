@@ -35,5 +35,5 @@ body {
 }
 
 .p{
-    border:100px solid red;
+    border:100px dotted-solid red;
 }

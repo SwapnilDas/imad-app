@@ -36,9 +36,9 @@ var htmlTemplate=
 <body>
     <div class="container">
         <div>
-            <a href ="/">Home
-            </a>
-           <button type="button"><a href="article-one">Article One</a></button>
+            
+ <button type="button"><a href="article-one"><a href ="/">Home</a></a></button>
+<button type="button"><a href="article-one">Article One</a></button>
             
                 Article Two
                 Article Three

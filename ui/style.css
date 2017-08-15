@@ -30,8 +30,10 @@ body {
     color: RGB(0,255,0);
     font-family: arial sans-serif;
     font-size: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top:40px;
+    padding-bottom:40px;
 }
 
 .p{

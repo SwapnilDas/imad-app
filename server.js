@@ -7,7 +7,7 @@ var config ={
     user:'swapnildas',
     database:'swapnildas',
     host:'db.imad.hasura_app.io',
-    port:5432,
+    port:'5432',
     password: process.env.DB_PASSWORD
 };
 

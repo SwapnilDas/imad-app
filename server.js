@@ -18,7 +18,7 @@ app.use(morgan('combined'));
 var articles = {
     
     
-    articleOne :{
+    'article-one' :{
         title: 'ArticleOne | Swapnil Das',
         date: '8 August 2017',
         heading:'Article One',
@@ -30,7 +30,7 @@ var articles = {
                 <div><p>Coding is what makes it possible for us to create computer software, apps and websites. Your browser, your OS and the apps on your phone, Facebook, and this webpage-they all are made with code.</p></div>
                 `
     },
-    articleTwo :{title: 'ArticleOne | Swapnil Das',
+    'article-two' :{title: 'ArticleOne | Swapnil Das',
         date: '22 August 2017',
         heading:'Article Two',
         content: 
@@ -41,7 +41,7 @@ var articles = {
                 <div><p>Coding is what makes it possible for us to create computer software, apps and websites. Your browser, your OS and the apps on your phone, Facebook, and this webpage-they all are made with code.</p></div>},
                 `
     },
-    articleThree :{title: 'ArticleOne | Swapnil Das',
+    'article-three' :{title: 'ArticleOne | Swapnil Das',
         date: '22 August 2017',
         heading:'Article Three',
         content: 

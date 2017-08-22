@@ -95,7 +95,7 @@ app.get('/counter', function(req,res)
 
 
 
-app.get('/articles/:articleName', function(req, res){
+app.get('/articles/:ArticleOne', function(req, res){
     //articleName == article-one
     //articles{articleName} == {} content object for article one
     pool.query("SELECT * FROM article WHERE title ='" +req.param.articleName +"'", function(err, result){

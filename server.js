@@ -15,17 +15,44 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var ArticleOne ={
-    title: 'ArticleOne | Swapnil Das',
-    date: '8 August 2017',
-    heading:'Article One',
-    content: 
-            `
-            <h2>KEEP CALM AND LEARN CODING!</h2>
-            <hr/>
-            <p>The first thing that comes to your is that what is coding? </p>
-            <div><p>Coding is what makes it possible for us to create computer software, apps and websites. Your browser, your OS and the apps on your phone, Facebook, and this webpage-they all are made with code.</p></div>
-            `
+var articles = {
+    
+    
+    articleOne :{
+        title: 'ArticleOne | Swapnil Das',
+        date: '8 August 2017',
+        heading:'Article One',
+        content: 
+                `
+                <h2>KEEP CALM AND LEARN CODING!</h2>
+                <hr/>
+                <p>The first thing that comes to your is that what is coding? </p>
+                <div><p>Coding is what makes it possible for us to create computer software, apps and websites. Your browser, your OS and the apps on your phone, Facebook, and this webpage-they all are made with code.</p></div>
+                `
+    },
+    articleTwo :{title: 'ArticleOne | Swapnil Das',
+        date: '22 August 2017',
+        heading:'Article Two',
+        content: 
+                `
+                <h2>KEEP CALM AND LEARN CODING!</h2>
+                <hr/>
+                <p>The first thing that comes to your is that what is coding? </p>
+                <div><p>Coding is what makes it possible for us to create computer software, apps and websites. Your browser, your OS and the apps on your phone, Facebook, and this webpage-they all are made with code.</p></div>},
+                `
+    },
+    articleThree :{title: 'ArticleOne | Swapnil Das',
+        date: '22 August 2017',
+        heading:'Article Three',
+        content: 
+                `
+                <h2>KEEP CALM AND LEARN CODING!</h2>
+                <hr/>
+                <p>The first thing that comes to your is that what is coding? </p>
+                <div><p>Coding is what makes it possible for us to create computer software, apps and websites. Your browser, your OS and the apps on your phone, Facebook, and this webpage-they all are made with code.</p></div>`
+        
+    }
+                
 };
 
 function createTemplate (data){
@@ -93,9 +120,7 @@ app.get('/counter', function(req,res)
 });
 
 
-
-
-app.get('/articles/:ArticleOne', function(req, res){
+app.get('/articles/:articleName', function(req, res){
     //articleName == article-one
     //articles{articleName} == {} content object for article one
     pool.query("SELECT * FROM article WHERE title ='" +req.param.articleName +"'", function(err, result){

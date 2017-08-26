@@ -26,8 +26,6 @@ button.onclick = function(){
     
 };
 
-
-
 //move the image
 var img=document.getElementById('madi');
 var marginLeft=0;
@@ -41,3 +39,21 @@ img.onclick = function()
         var interval =setInterval(moveRight, 10);
         
     };
+    
+//Submit Names of the user
+//Create comment box
+var nameInput = document.getElementById('name');
+var name = nameInput.value;
+var submit = document.getElementById('submit_btn');
+submit.onclicke = function(){
+    //make a request to the server and send name
+    //capture a list of names and render it as a list
+    var names = ['name1', 'name2', 'name3'];
+    var list = '';
+    for(var i =0; i<names.length; i++)
+        {
+            list +='<li>' + names[i] + '</li>';
+        }
+    var ul = document.getElementById('namelist');
+    ul.innerHTML = list;
+};
